@@ -1,10 +1,27 @@
-PYNORAMIX is a fast and efficient python library to analyze water structure and
-dynamics.
+#######################################################################
+#### Pynoramix v03.1
 
-Authors: Francesco Rao
-         Diego Prada-Gracia
-         Roman Schevchuk
+This software is able to reproduce the analysis proposed in the paper:
+"Structural Inhomogeneity of Water by Complex Network Analysis."  
+Francesco Rao, Sean Garrett-Roe, and Peter Hamm. 
+J. Phys. Chem. B, 2010, 114 (47), pp 15598–15604.
 
-Site:    raolab.com
+Pynoramix is under development, please feel free to contact us for further suggestions at:
+pynoramix@gmail.com
 
-License: GPL
+This software is free software under the http://www.gnu.org/licenses/gpl-3.0-standalone.html license.
+
+#######################################################################
+
+@@ Installation:
+
+Make sure the files called pyn_anw and xtc2bin have executable rights and compile pyn_fort.f90:
+
+>>> f2py -c -m pyn_fort pyn_fort.f90
+
+Find a script to analyse the short test trajectory md_test.xtc of the system tip4p_ew.pdb in:
+test.py
+
+For a complete review of the commands needed visit:
+https://github.com/ruvido/Pynoramix/wiki
+
