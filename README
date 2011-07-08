@@ -9,6 +9,7 @@ Mail:    pynoramix@gmail.com
 Site:    raolab.com
 
 License: GPL
+
 #######################################################################
 #### Pynoramix v03.1
 
@@ -17,10 +18,8 @@ This software is able to reproduce the analysis proposed in the paper:
 Francesco Rao, Sean Garrett-Roe, and Peter Hamm. 
 J. Phys. Chem. B, 2010, 114 (47), pp 15598–15604.
 
-Pynoramix is under development, please feel free to contact us for further suggestions at:
+Pynoramix is under development, bugs and suggestions should be sent to
 pynoramix@gmail.com
-
-This software is free software under the http://www.gnu.org/licenses/gpl-3.0-standalone.html license.
 
 #######################################################################
 
