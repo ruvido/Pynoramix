@@ -26,13 +26,22 @@ This software is free software under the http://www.gnu.org/licenses/gpl-3.0-sta
 
 @@ Installation:
 
-Make sure the files called pyn_anw and xtc2bin have executable rights and compile pyn_fort.f90:
+Make sure the files called pyn_anw and xtc2bin have executable rights and
+compile pyn_fort.f90:
 
 >>> f2py -c -m pyn_fort pyn_fort.f90
 
-Find a script to analyse the short test trajectory md_test.xtc of the system tip4p_ew.pdb in:
-test.py
+@@ Example run
 
-For a complete review of the commands needed visit:
+An example run is found in the "example" directory. Running the script
+example.py will produce a full analysis of a short tip4p-ew trajectory
+md_test.xtc with topology tip4p_ew.pdb
+
+For a complete review of the commands:
 https://github.com/ruvido/Pynoramix/wiki
+
+@@ Notes for Archlinux
+
+Given the fact that pynoramix is written in pyhton-2, the package python2-numpy
+needs to be installed. To compile the fortran part use then 'f2py2'.
 
